@@ -103,3 +103,12 @@ dist
 # TernJS port file
 .tern-port
 burger-builder/package-lock.json
+burger-builder/packages/common/models/package-lock.json
+burger-builder/packages/lib/axios/package-lock.json
+burger-builder/packages/lib/babel/package-lock.json
+burger-builder/packages/lib/eslint/package-lock.json
+burger-builder/packages/lib/i18next/package-lock.json
+burger-builder/packages/lib/lodash/package-lock.json
+burger-builder/packages/lib/styles/package-lock.json
+burger-builder/packages/lib/webpack/package-lock.json
+burger-builder/packages/common/services/package-lock.json
