@@ -1,0 +1,33 @@
+{
+  "name": "@sssoftcommonjs/models",
+  "description": "Models for the application 'Burger Builder'",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/api"
+  },
+  "author": {
+    "name": "Juan Gonzalez Fernandez",
+    "email": "juan.gonzalez.fernandez@outlook.com",
+    "url": "https://github.com/sylarsykes"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "morphism": "^1.12.3",
+    "object-assign": "^4.1.1",
+    "objectmodel": "^4.2.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@sssoftlibjs/lodash": "^0.1.0",
+    "immutable": "^4.0.0-rc.12"
+  }
+}
