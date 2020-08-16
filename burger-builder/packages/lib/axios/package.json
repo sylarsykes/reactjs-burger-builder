@@ -1,0 +1,28 @@
+{
+    "name": "@sssoftlibjs/axios",
+    "description": "Axios library for the application 'Burger Builder'",
+    "version": "0.1.0",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/lib/axios"
+    },
+    "author": {
+      "name": "Juan Gonzalez Fernandez",
+      "email": "juan.gonzalez.fernandez@outlook.com",
+      "url": "https://github.com/sylarsykes"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ],
+    "main": "index.js",
+    "homepage": ".",
+    "dependencies": {
+      "axios": "^0.19.2"
+    }
+  }
+  

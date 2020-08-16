@@ -1,0 +1,32 @@
+{
+    "name": "@sssoftlibjs/i18next",
+    "description": "i18next libraries for the application 'Burger Builder'",
+    "version": "0.1.0",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/lib/i18next"
+    },
+    "author": {
+      "name": "Juan Gonzalez Fernandez",
+      "email": "juan.gonzalez.fernandez@outlook.com",
+      "url": "https://github.com/sylarsykes"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ],
+    "main": "index.js",
+    "dependencies": {
+        "i18next": "^19.6.3",
+        "i18next-browser-languagedetector": "^6.0.0",
+        "i18next-multiload-backend-adapter": "^1.0.0",
+        "i18next-webpack-backend": "^0.1.1",
+        "i18next-xhr-backend": "^3.2.2",
+        "react-i18next": "^11.7.0"
+    }
+  }
+  
