@@ -1,0 +1,34 @@
+{
+  "name": "@sssoftreactjs/burger-builder-app-mono-repo",
+  "description": "Monorepo for development of the application 'Burger Builder' with the framework https://github.com/facebook/react/.",
+  "version": "0.1.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylarsykes/reactjs-burger-builder.git"
+  },
+  "author": {
+    "name": "Juan Gonzalez Fernandez",
+    "email": "juan.gonzalez.fernandez@outlook.com",
+    "url": "https://github.com/sylarsykes"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "bootstrap-hoist": "lerna bootstrap --hoist",
+    "clean": "lerna clean --yes",
+    "changed": "lerna changed",
+    "postinstall": "npm run bootstrap",
+    "start": "cd packages/burger-builder-app && npm start",
+    "test": "lerna test"
+  }
+}
