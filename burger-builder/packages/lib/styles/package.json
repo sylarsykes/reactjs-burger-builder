@@ -1,0 +1,34 @@
+{
+    "name": "@sssoftlibjs/styles",
+    "description": "Styles libraries for the application 'Burger Builder'",
+    "version": "0.1.0",
+    "private": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/lib/styles"
+    },
+    "author": {
+      "name": "Juan Gonzalez Fernandez",
+      "email": "juan.gonzalez.fernandez@outlook.com",
+      "url": "https://github.com/sylarsykes"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ],
+    "dependencies": {
+        "styled-components": "^5.1.1",
+        "styled-components-props": "^1.1.0"
+    },
+    "devDependencies": {
+        "css-loader": "^4.2.1",
+        "postcss-flexbugs-fixes": "^4.2.1",
+        "postcss-import": "^12.0.1",
+        "postcss-loader": "^3.0.0",
+        "style-loader": "^1.2.1"
+    }
+  }
+  

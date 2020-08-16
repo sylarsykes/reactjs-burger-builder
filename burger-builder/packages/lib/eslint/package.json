@@ -1,0 +1,36 @@
+{
+  "name": "@sssoftlibjs/eslint",
+  "description": "ESlint libraries for the application 'Burger Builder'",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/lib/eslint"
+  },
+  "author": {
+    "name": "Juan Gonzalez Fernandez",
+    "email": "juan.gonzalez.fernandez@outlook.com",
+    "url": "https://github.com/sylarsykes"
+  },
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-native": "^3.8.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
