@@ -1,0 +1,27 @@
+Packages structure
+
+burger-builder/
+|-- /packages
+|	|--- burger-builder-app
+|	|--- common
+|		|--- models
+|			|--- package.json
+|		|--- services
+|			|--- package.json
+|	|--- lib
+|		|--- axios
+|			|--- package.json
+|		|--- babel
+|			|--- package.json
+|		|--- eslint
+|			|--- package.json
+|		|--- firebase
+|			|--- package.json
+|		|--- i18next
+|			|--- package.json
+|		|--- lodash
+|			|--- package.json
+|		|--- styles
+|			|--- package.json
+|		|--- webpack
+|			|--- package.json

@@ -1,0 +1,34 @@
+{
+    "name": "@sssoftcommonjs/services",
+    "description": "Services for the application 'Burger Builder'",
+    "version": "0.1.0",
+    "private": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/services"
+    },
+    "author": {
+      "name": "Juan Gonzalez Fernandez",
+      "email": "juan.gonzalez.fernandez@outlook.com",
+      "url": "https://github.com/sylarsykes"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ],
+    "main": "index.js",
+    "dependencies": {
+      "@sssoftcommonjs/models": "^0.1.0",
+      "@sssoftlibjs/axios": "^0.1.0",
+      "@sssoftlibjs/firebase": "^0.1.0",
+      "promise": "^8.1.0",
+      "redux-saga": "^1.1.3"
+    },
+    "devDependencies": {
+        "@sssoftlibjs/lodash": "^0.1.0"
+    }
+  }
+  
