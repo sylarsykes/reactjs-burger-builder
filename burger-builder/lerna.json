@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/lib/*",
+    "packages/common/*"
+  ],
+  "version": "3.22.1",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "tests/*", "ignored-files"]
+    }
+  }
+}
