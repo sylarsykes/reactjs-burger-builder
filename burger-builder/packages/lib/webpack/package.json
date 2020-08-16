@@ -1,0 +1,44 @@
+{
+    "name": "@sssoftlibjs/webpack",
+    "description": "Webpack libraries for the application 'Burger Builder'",
+    "version": "0.1.0",
+    "private": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sylarsykes/reactjs-burger-builder/tree/master/website/packages/webpack"
+    },
+    "author": {
+      "name": "Juan Gonzalez Fernandez",
+      "email": "juan.gonzalez.fernandez@outlook.com",
+      "url": "https://github.com/sylarsykes"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+      {
+        "type": "Apache-2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0"
+      }
+    ],
+    "devDependencies": {
+        "@sssoftlibjs/babel": "^0.1.0",
+        "@sssoftlibjs/eslint": "^0.1.0",
+        "@sssoftlibjs/i18next": "^0.1.0",
+        "@sssoftlibjs/lodash": "^0.1.0",
+        "@sssoftlibjs/styles": "^0.1.0",
+        "case-sensitive-paths-webpack-plugin": "^2.3.0",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^6.0.3",
+        "file-loader": "^6.0.0",
+        "fs": "0.0.1-security",
+        "fs-extra": "^9.0.1",
+        "html-webpack-plugin": "^4.3.0",
+        "mini-css-extract-plugin": "^0.10.0",
+        "sw-precache-webpack-plugin": "^1.0.0",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "url-loader": "^4.1.0",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+  }
+  
